@@ -1,35 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 3px;
 }
 
 
 .caixa-img-logo {
-height: 30px;
+    height: 30px;
 
 }
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+body {
+
     font-family: Arial, Helvetica, sans-serif;
 }
-#senai{
+
+#senai {
     height: 30px;
     width: 100px;
-    padding-top: 
 }
-.menu{
+
+
+.menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 1000px;
+    justify-content: space-evenly;
+    width: 100%;
 }
-.home{
+
+.home {
     font-size: 20px;
     font-weight: 800;
 }
- .tags{
+
+.tags {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -37,46 +40,53 @@ body{
     justify-content: center;
     margin-top: 10px;
 
- }
- .txt-tags{
+}
+
+.txt-tags {
     border: 1px solid #000;
     border-radius: 20px;
     padding: 3px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 600;
- }
-.card{
+}
+
+.card {
     border: 1px solid #000;
     width: 300px;
     height: 300px;
     border-radius: 5PX;
 }
-.titulo{
+
+.titulo {
     margin-top: 20px;
 }
 
-.titulo-principal{
+.titulo-principal {
     font-size: 27px;
     font-weight: 700;
 }
-.escricaod{
+
+.escricaod {
     font-size: 12px;
     font-weight: 540;
 }
-.carga-horaria{
+
+.carga-horaria {
     font-size: 12px;
     font-weight: 600;
 }
-.botoes{
+
+.botoes {
     display: flex;
     flex-direction: column;
     gap: 18px;
     align-items: center;
     padding-top: 15px;
-    
+
 }
-.saiba{
+
+.saiba {
     width: 160px;
     border-radius: 10px;
     font-size: 12px;
@@ -85,7 +95,8 @@ body{
     color: #ff0000;
     border: 1px solid #ff0000;
 }
-.cancela{
+
+.cancela {
     width: 160px;
     height: 22px;
     border-radius: 10px;
@@ -94,14 +105,17 @@ body{
     color: #ffffff;
     background-color: #ff0000;
     border: 1px solid #ff0000;
-    
+
 }
-hr{
-width: 80%;
-display: flex;
-padding: 0;
+
+hr {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
 }
-.cards-caixas{
+
+.cards-caixas {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -109,8 +123,49 @@ padding: 0;
     padding: 20px;
     gap: 10px;
 }
-.hora{
+
+.hora {
     display: flex;
     flex-direction: row;
+    font-size: 12px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caixa-footer {
+    background-color: #333333;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textos {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+.descricao {
+    font-size: 13px;
+}
+
+.txt-1 {
+    width: 300px;
+}
+
+.titulo-2 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rodape {
+    color: #ffffff;
     font-size: 12px;
 }
